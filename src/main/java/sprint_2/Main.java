@@ -1,2 +1,4 @@
-package sprint_2;public class Main {
+package sprint_2;
+
+public class Main {
 }

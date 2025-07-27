@@ -1,4 +1,4 @@
-package model.constants;
+package sprint_2.model.constants;
 
-public class Colour {
+public class Colour     {
 }
