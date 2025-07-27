@@ -1,4 +1,6 @@
 package sprint_2.model.constants;
 
-public class Discount {
+public interface Discount {
+
+    double DISCOUNT_60 = 60;
 }
