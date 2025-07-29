@@ -1,7 +1,7 @@
-package sprint_2.model;
+package sprint2.model;
 
-import sprint_2.model.constants.Colour;
-import sprint_2.model.constants.Discount;
+import sprint2.model.constants.Colour;
+import sprint2.model.constants.Discount;
 
 public class Apple extends Food {
 

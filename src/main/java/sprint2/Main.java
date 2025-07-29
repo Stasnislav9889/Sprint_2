@@ -1,16 +1,19 @@
-package sprint_2;
+package sprint2;
 
-import sprint_2.model.Apple;
-import sprint_2.model.Food;
-import sprint_2.model.Meat;
-import sprint_2.service.ShoppingCart;
+import sprint2.model.Apple;
+import sprint2.model.Food;
+import sprint2.model.Meat;
+import sprint2.service.ShoppingCart;
+
+import static sprint2.model.constants.Amount.*;
+import static sprint2.model.constants.Price.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        Food meat = new Meat(5, 100);
-        Food appleRed = new Apple(10, 50, "red");
-        Food appleGreen = new Apple(8, 60, "green");
+        Food meat = new Meat(amount_5, price_100);
+        Food appleRed = new Apple(amount_10, price_50, "red");
+        Food appleGreen = new Apple(amount_8, price_60, "green");
         Food[] listFood = {meat, appleRed, appleGreen};
         ShoppingCart shoppingCart = new ShoppingCart(listFood);
         System.out.println(shoppingCart.getTotalPriceWithoutDiscount());

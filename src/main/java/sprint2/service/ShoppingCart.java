@@ -1,6 +1,6 @@
-package sprint_2.service;
+package sprint2.service;
 
-import sprint_2.model.Food;
+import sprint2.model.Food;
 
 public class ShoppingCart {
     Food[] listFood;

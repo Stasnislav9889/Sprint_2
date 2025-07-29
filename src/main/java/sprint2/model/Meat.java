@@ -1,4 +1,4 @@
-package sprint_2.model;
+package sprint2.model;
 
 public class Meat extends Food {
 
